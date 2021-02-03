@@ -11,7 +11,6 @@ const express 			= require("express"),
 	  Campground 		= require("./models/campground"),
 	  Comment 			= require("./models/comment"),
 	  User 				= require("./models/user"),
-	  seedDB 			= require("./seeds"),
 	  Promise 			= require('bluebird');
 
 //requiring routes
